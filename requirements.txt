@@ -1,0 +1,8 @@
+zerorpc~=0.6.3
+PyYAML~=5.3.1
+scipy~=1.10.1
+numpy~=1.24.4
+opencv-python~=4.8.1.78
+matplotlib~=3.1.2
+pyrealsense2~=2.54.2.5684
+gevent~=23.9.1

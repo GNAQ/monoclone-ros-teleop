@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- Robot namespace -->
+    <arg name="robot_name" default="my_gen3"/>
+    <arg name="start_delay_seconds" default="0"/>
+
+    <!-- Launch teleop zerorpc server in that namespace -->
+    <node name="monoclone_ros_teleop" pkg="monoclone_ros_teleop" type="main.py" ns="$(arg robot_name)" output="screen" launch-prefix="bash -c 'sleep $(arg start_delay_seconds); $0 $@' "/>
+
+</launch>
